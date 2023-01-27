@@ -1,4 +1,4 @@
-# dragons_godot
+# sokoban_godot
 Simple GODOT 2 players game where Toad and Toadette have to solve sokoban levels, i.e move the crates to the stone places to go to the next level.
 
 ## how to use 
