@@ -1,0 +1,33 @@
+Title: Attrition 05
+Description: My fifth set of handmade levels. All levels are made with the attention to level
+             design and difficulty in mind.
+Author: Razorflame
+Email: razorflame@yahoo.com
+
+#####################
+#   #   #   #   #   #
+# $   $   $   $   $ #
+##$# # # # # # # #$##
+#    $ $ $ $ $ $    #
+#.$$#$#$#$#$#$#$#$$.#
+#.#..$ $ $ $ $ $..#.#
+#....# # # # # #....#
+#..#$           $#..#
+#...  #$#$#$#$#  ...#
+#...#$         $#...#
+#....  #$#$#$#  ....#
+#.  @#$       $#   .#
+#....  #$#$#$#  ....#
+#...#$         $#...#
+#...  #$#$#$#$#  ...#
+#..#$           $#..#
+#....# # # # # #....#
+#.#..$ $ $ $ $ $..#.#
+#.$$#$#$#$#$#$#$#$$.#
+#    $ $ $ $ $ $    #
+##$# # # # # # # #$##
+# $   $   $   $   $ #
+#   #   #   #   #   #
+#####################
+Title: Enigmatic Flow
+

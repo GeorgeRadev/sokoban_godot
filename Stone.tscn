@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Crate.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Stone.gd" type="Script" id=2]
+
+[sub_resource type="BoxShape" id=5]
+extents = Vector3( 0.437044, 0.34801, 0.437044 )
+
+[node name="border" type="KinematicBody"]
+collision_mask = 3
+script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.394496, 0 )
+shape = SubResource( 5 )
+
+[node name="level" type="Spatial" parent="."]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0 )
+
+[node name="crate" parent="level" instance=ExtResource( 1 )]
+transform = Transform( 1.93892, 0, 0, 0, 1.93892, 0, 0, 0, 1.93892, 0, 0, 0 )

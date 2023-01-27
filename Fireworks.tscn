@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_unshaded = true
+vertex_color_use_as_albedo = true
+params_blend_mode = 1
+params_billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id=1]
+material = SubResource( 2 )
+size = Vector2( 0.1, 0.1 )
+
+[node name="Fireworks" type="Spatial"]
+
+[node name="CPUParticles" type="CPUParticles" parent="."]
+amount = 200
+explosiveness = 0.98
+randomness = 0.6
+lifetime_randomness = 0.51
+mesh = SubResource( 1 )
+direction = Vector3( 0, 0, 0 )
+spread = 180.0
+initial_velocity = 8.0
+initial_velocity_random = 0.5
+hue_variation = 1.0
+hue_variation_random = 1.0

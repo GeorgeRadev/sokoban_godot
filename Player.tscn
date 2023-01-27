@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Toad_Toadette.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.gd" type="Script" id=2]
+
+[sub_resource type="CapsuleShape" id=1]
+radius = 0.177777
+height = 0.535504
+
+[sub_resource type="BoxShape" id=2]
+extents = Vector3( 0.0845888, 0.192713, 0.118052 )
+
+[node name="Player" type="KinematicBody"]
+collision_layer = 2
+script = ExtResource( 2 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.443633, 0 )
+shape = SubResource( 1 )
+
+[node name="Orientation" type="Spatial" parent="."]
+
+[node name="Toad_Toadette" parent="Orientation" instance=ExtResource( 1 )]
+transform = Transform( 0.326283, 0, 0, 0, 0.326283, 0, 0, 0, 0.326283, 0, 0, 0 )
+
+[node name="Area" type="Area" parent="Orientation"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.32422, 0.431776 )
+
+[node name="CollisionShape" type="CollisionShape" parent="Orientation/Area"]
+shape = SubResource( 2 )
+
+[connection signal="body_entered" from="Orientation/Area" to="." method="_on_Area_body_entered"]
+[connection signal="body_exited" from="Orientation/Area" to="." method="_on_Area_body_exited"]

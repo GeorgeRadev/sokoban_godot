@@ -1,0 +1,121 @@
+Title: 100 Boxes
+Description: This collection includes 10 small levels of 10 packages each. It is intended for
+             the expert who has a few (many) hours in front of them.
+Author: François Marques
+Email: sokoban@online.fr
+Website: http://sokoban.online.fr
+
+   ####
+####  ##
+#   $  #
+#  *** #
+#  . . ##
+## * *  #
+ ##***  #
+  # $ ###
+  # @ #
+  #####
+Title: Connection
+
+ #########
+ #   #   #
+ # @ #   #
+##$**$**$#
+#  #. .# ##
+#  .*$*.  #
+#         #
+###########
+Title: Two rooms
+
+  #####
+  #   #
+  #   #
+### * ###
+#  *.*  #
+#  *.*  #
+#  *.*  #
+###$$$###
+  # @ #
+  #####
+Title: Fill the hall
+
+  ####
+### @#####
+#  $$$   #
+# **.**  #
+##     ###
+# .***. #
+#       #
+#########
+Title: Two lines
+
+ #######
+ #  @  #
+ #*$*$*#
+ # .$. #
+##. # .##
+#  *$*  #
+#   *   #
+#  ###  #
+#### ####
+Title: Dual
+
+##### ####
+#   ###  #
+# $     @#
+##$*****$##
+# $.....$ #
+#   #     #
+########  #
+       ####
+Title: Zip
+
+ ####
+##  #####
+#  $  $ #
+# $*..* ##
+#  *$$.  #
+#@ *.*.  #
+####   ###
+   #####
+Title: The little dog
+
+  ####
+  #  ####
+ ##@ $  #
+ # *.*  #
+## * * ##
+#  * * #
+#  *** #
+##     #
+ ####  #
+    ####
+Title: Opened circle
+
+  ####
+  # @##
+  #$$ #
+### * ###
+#  .*.$ #
+#  .*.  #
+# #.*.# #
+# $$$   #
+###   ###
+  ##  #
+   ####
+Title: Jour J
+
+  #####
+  # . #
+###$ $###
+#  $ $  #
+# . . . #
+### * ###
+  # * #
+  #$.$#
+  # . #
+  #$.$#
+  # + #
+  #####
+Title: The crucifix
+
